@@ -18,6 +18,13 @@
     <div id="app" class="text-slate-700">
         <S4PNav />
         <router-view />
+
+        <footer class="max-w-7xl mx-auto px-4">
+            <div class="flex group items-center space-x-2 text-3xl">
+                <a class="cursor-pointer">🇩🇪</a>
+                <a class="cursor-pointer">🇬🇧</a>
+            </div>
+        </footer>
     </div>
 
 </template>
