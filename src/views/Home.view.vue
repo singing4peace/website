@@ -43,8 +43,7 @@
                 md:text-6xl" :strings="headers" />
 
             <p class="mb-24 text-lg
-                md:text-xl">Mit Entsetzen und großer Betroffenheit beobachten wir das Unfassbare, das gerade in der Ukraine geschieht.<br />Auch anderswo auf der Welt leiden viele Menschen unter den Auswirkungen von Krieg und Gewalt, insbesondere Kinder.<br /><br />Als klingendes Zeichen der Verbundenheit wollen wir gemeinsam ein Friedenslied anstimmen.<br />Wir laden Kinderchöre- und Jugendchöre ein, mitzumachen.
-</p>
+                md:text-xl" v-html="$t('home.subtitle')" />
 
             <div class="relative">
                 <div class="bg-sky-200 w-full" style="aspect-ratio: 16/9"></div>
@@ -67,7 +66,7 @@
                 </div>
             </div>
 
-            <p class="font-semibold mt-2 text-slate-500 text-sm text-center">Die Einsendungen anderer Kinderchöre werden regelmäßig mit eingebaut. So wird unser Video immer aktualisiert.<br />Die Zusammenstellung der Bildauswahl wird zufällig generiert. Auf diese Weise entsteht bei jedem Anklicken ein anderes Video.</p>
+            <p class="font-semibold mt-2 text-slate-500 text-sm text-center" v-html="$t('home.compositionInfo')" />
         </section>
     </div>
 

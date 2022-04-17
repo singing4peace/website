@@ -9,7 +9,16 @@
         },
     })
     export default class App extends Vue {
+        changeLanguage(locale: string): void {
+            this.$store.commit("setLocale", locale);
+            this.$i18n.locale = locale;
 
+            this.$forceUpdate();
+        }
+
+        mounted(): void {
+            this.$i18n.locale = this.$store.state.locale;
+        }
     }
 </script>
 
@@ -21,8 +30,8 @@
 
         <footer class="max-w-7xl mx-auto px-4">
             <div class="flex group items-center space-x-2 text-3xl">
-                <a class="cursor-pointer">🇩🇪</a>
-                <a class="cursor-pointer">🇬🇧</a>
+                <a @click="changeLanguage('de')" class="cursor-pointer">🇩🇪</a>
+                <a @click="changeLanguage('en')" class="cursor-pointer">🇬🇧</a>
             </div>
         </footer>
     </div>
