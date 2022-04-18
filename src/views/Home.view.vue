@@ -16,13 +16,15 @@
     })
     export default class HomeView extends Vue {
         headers = [
-            "Lasst uns für den Frieden singen!",
-            "Cantemos por la paz!",
-            "Laten we zingen voor de vrede!",
-            "Chantons pour la paix!",
-            "Lauletaan rauhan puolesta!",
-            "平和のために歌おう",
-            "Śpiewajmy razem o pokój na świecie!",
+            "Lasst uns für den Frieden singen!", // German
+            "Давайте разом заспіваємо за мир!", // Ukrainian
+            "Let's sing for peace!", // English
+            "Cantemos por la paz!", // Spanish
+            "Laten we zingen voor de vrede!", // Dutch
+            "Chantons pour la paix!", // French
+            "Lauletaan rauhan puolesta!", // Finnish
+            "平和のために歌おう", // Japanese
+            "Śpiewajmy razem o pokój na świecie!", // Polish
         ];
 
         icons: Record<string, string> = {
