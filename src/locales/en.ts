@@ -4,9 +4,9 @@ export default {
     },
     contribute: {
         files: {
-            audio: 'Here is the link to the <a class="underline" href="Playback.mp3">soundtrack</a>.<br/>Here is the link to the <a class="underline" href="Piano Playback.mp3">overall recording</a>.',
+            audio: 'Here is the link to the <a href="Playback.mp3"><u>soundtrack</u></a>.<br/>Here is the link to the <a href="Piano Playback.mp3"><u>overall recording</u></a>.',
             audioHint: "At the beginning the opening note can be heard followed by three clicks before the song starts. In this way you can identify pitch and tempo.",
-            notes: '<a class="underline" href="de/Melodie.pdf">Here you can get the sheet music</a>.',
+            notes: '<a href="de/Melodie.pdf"><u>Here you can get the sheet music</u></a>.',
             title: "Your choir wants to contribute?",
         },
         important: "Important",
@@ -21,10 +21,10 @@ export default {
             variantsTitle: "There are two different ways of recording:",
         },
         submit: {
-            message: 'Unfortunately, your video cannot be incorporated without a fully completed <a class="underline" href="en/Registration.pdf">registration form</a>.<br />Feel free to use the <a class="underline" href="en/Declaration of consent.pdf">declaration of consent</a> for choir members already provided by us.',
+            message: 'Unfortunately, your video cannot be incorporated without a fully completed <a href="en/Registration.pdf"><u>registration form</u></a>.<br />Feel free to use the <a href="en/Declaration of consent.pdf"><u>declaration of consent</u></a> for choir members already provided by us.',
             step: "Step",
-            step1: 'Upload your recording together with the <a class="underline" href="en/Registration.pdf">registration</a> to e.g. WeTransfer or Google Drive.',
-            step2: 'Email us the link to both files to <a class="underline" href="mailto:orga@singing4peace.de">orga@singing4peace.de</a>.',
+            step1: 'Upload your recording together with the <a href="en/Registration.pdf"><u>registration</u></a> to e.g. WeTransfer or Google Drive.',
+            step2: 'Email us the link to both files to <a href="mailto:orga@singing4peace.de"><u>orga@singing4peace.de</u></a>.',
             title: "How to submit your recording",
         },
         title: "Contribute",
