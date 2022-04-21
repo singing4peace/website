@@ -1,6 +1,7 @@
 <script lang="ts">
     import { Component, Vue } from "vue-property-decorator";
 
+    import axios from "axios";
     import SvgIcon from "@jamescoyle/vue-icon";
     import {
         mdiPlay,
@@ -15,6 +16,7 @@
         },
     })
     export default class HomeView extends Vue {
+        contributors: any[] = [];
         headers = [
             "Lasst uns für den Frieden singen!", // German
             "Давайте разом заспіваємо за мир!", // Ukrainian
@@ -30,6 +32,13 @@
         icons: Record<string, string> = {
             play: mdiPlay
         };
+
+        async mounted(): Promise<void> {
+            const res = await axios.get<any[]>("https://jsonplaceholder.typicode.com/users");
+            if (res.status == 200) {
+                this.contributors = res.data;
+            }
+        }
     }
 </script>
 
@@ -48,9 +57,11 @@
                 md:text-xl" v-html="$t('home.subtitle')" />
 
             <div class="relative">
-                <div class="bg-sky-200 w-full" style="aspect-ratio: 16/9"></div>
+                <div class="bg-sky-200 flex w-full" style="aspect-ratio: 16/9">
+                    <iframe class="flex-grow" src="https://www.youtube.com/embed/dSCEPiGmK-A" frameborder="0" allowfullscreen style="border: none; outline: none"></iframe>
+                </div>
 
-                <div class="absolute bg-sky-900 hover:bg-cyan-600 cursor-pointer left-1/2 p-2 -skew-x-6 text-white top-1/2 transform-gpu transition-all -translate-x-1/2 -translate-y-1/2
+                <!-- <div class="absolute bg-sky-900 hover:bg-cyan-600 cursor-pointer left-1/2 p-2 -skew-x-6 text-white top-1/2 transform-gpu transition-all -translate-x-1/2 -translate-y-1/2
                     md:hidden">
 
                     <svg-icon :path="icons.play" size="32" type="mdi" />
@@ -65,10 +76,23 @@
                             <svg-icon :path="icons.play" size="32" type="mdi" />
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <p class="font-semibold mt-2 text-slate-500 text-sm text-center" v-html="$t('home.compositionInfo')" />
+        </section>
+
+        <section class="pb-16 text-center
+            md:text-left">
+
+            <div class="block font-serif mb-8 text-3xl
+                md:text-4xl" v-text="$t('home.contributed')" />
+
+            <div class="font-medium space-y-2">
+                <template v-for="contributor in contributors">
+                    <div :key="contributor.name">&mdash; {{ contributor.name }}</div>
+                </template>
+            </div>
         </section>
     </div>
 
