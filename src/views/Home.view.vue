@@ -42,7 +42,7 @@
             <CyclingText class="block font-serif mb-8 text-5xl
                 md:text-6xl" :strings="headers" />
 
-            <p class="mb-24 text-lg
+            <p class="mb-14 text-lg
                 md:text-xl" v-html="$t('home.subtitle')" />
 
             <div class="relative">
@@ -58,7 +58,7 @@
                     md:flex">
 
                     <div class="inline-flex -ml-8 -skew-x-6 text-white transform-gpu w-full">
-                        <div class="bg-slate-700 font-medium inline-flex items-center mr-2 px-6 py-3">Stream</div>
+                        <div class="bg-slate-700 font-medium inline-flex items-center mr-2 px-6 py-3">Zufällige Kompositionen im Livestream</div>
                         <div class="bg-sky-900 hover:bg-cyan-600 cursor-pointer mr-2 p-3 transition-all">
                             <svg-icon :path="icons.play" size="32" type="mdi" />
                         </div>

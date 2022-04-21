@@ -2,7 +2,9 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 
 import HomeView from "@/views/Home.view.vue";
+import ContributeView from "@/views/Contribute.view.vue";
 import ImprintView from "@/views/Imprint.view.vue";
+import PrivacyView from "@/views/Privacy.view.vue";
 
 Vue.use(VueRouter);
 
@@ -13,9 +15,19 @@ const routes: Array<RouteConfig> = [
         component: HomeView,
     },
     {
+        path: "/contribute",
+        name: "contribute",
+        component: ContributeView,
+    },
+    {
         path: "/imprint",
         name: "imprint",
         component: ImprintView,
+    },
+    {
+        path: "/privacy",
+        name: "privacy",
+        component: PrivacyView,
     },
 ];
 
