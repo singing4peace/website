@@ -34,7 +34,7 @@
         };
 
         async mounted(): Promise<void> {
-            const res = await axios.get<any[]>("https://jsonplaceholder.typicode.com/users");
+            const res = await axios.get<any[]>("https://api.singing4peace.de/v1/ensembles");
             if (res.status == 200) {
                 this.contributors = res.data;
             }
