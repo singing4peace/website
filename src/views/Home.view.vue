@@ -58,7 +58,7 @@
 
             <div class="relative">
                 <div class="bg-sky-200 flex w-full" style="aspect-ratio: 16/9">
-                    <iframe class="flex-grow" src="https://www.youtube.com/embed/dSCEPiGmK-A" frameborder="0" allowfullscreen style="border: none; outline: none"></iframe>
+                    <iframe class="flex-grow" src="https://www.youtube.com/embed/live_stream?channel=UCCde1p-HjCRkjln_ywfRFvg" frameborder="0" allowfullscreen style="border: none; outline: none"></iframe>
                 </div>
 
                 <!-- <div class="absolute bg-sky-900 hover:bg-cyan-600 cursor-pointer left-1/2 p-2 -skew-x-6 text-white top-1/2 transform-gpu transition-all -translate-x-1/2 -translate-y-1/2
