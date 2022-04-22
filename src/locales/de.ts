@@ -4,9 +4,9 @@ export default {
     },
     contribute: {
         files: {
-            audio: '<a href="Playback.mp3"><u>In der Tonspur</u></a> singt ein einzelnes Kind das Lied unbegleitet.<br /><a href="Piano Playback.mp3"><u>In der Gesamtaufnahme</u></a> sind der Chor und Klavierbegleitung zu hören.',
+            audio: '<a class="underline" href="Playback.mp3">In der Tonspur</a> singt ein einzelnes Kind das Lied unbegleitet.<br /><a class="underline" href="Piano Playback.mp3">In der Gesamtaufnahme</a> sind der Chor und Klavierbegleitung zu hören.',
             audioHint: "Bei beiden Musikdateien ist zu Beginn der Anfangston zu hören und dann drei Klicks bevor das Lied beginnt. So könnt ihr Tonhöhe und Tempo abnehmen.",
-            notes: '<a href="de/Melodie.pdf"><u>Hier könnt ihr euch die Noten herunterladen</u></a>.',
+            notes: '<a class="underline" href="de/Melodie.pdf">Hier könnt ihr euch die Noten herunterladen</a>.',
             title: "Euer Chor möchte mitmachen?",
         },
         important: "Wichtig",
@@ -20,10 +20,10 @@ export default {
             variantsTitle: "Es gibt zwei verschiedene Möglichkeiten, euch aufzunehmen:",
         },
         submit: {
-            message: 'Ohne eine vollständig ausgefüllte <a href="de/Anmeldung.pdf"><u>Anmeldung</u></a> kann euer Video leider nicht eingebaut werden.<br />Wir haben außerdem eine <a href="de/Einverständniserklärung.pdf"><u>Einverständniserklärung</u></a> für eure Chormitglieder erstellt. Wenn ihr nicht sowieso eine eigene habt, nutz gerne unsere.',
+            message: 'Ohne eine vollständig ausgefüllte <a class="underline" href="de/Anmeldung.pdf">Anmeldung</a> kann euer Video leider nicht eingebaut werden.<br />Wir haben außerdem eine <a class="underline" href="de/Einverständniserklärung.pdf">Einverständniserklärung</a> für eure Chormitglieder erstellt. Wenn ihr nicht sowieso eine eigene habt, nutz gerne unsere.',
             step: "Schritt",
-            step1: 'Ladet Eure Aufnahme gemeinsam mit der <a href="de/Anmeldung.pdf"><u>Anmeldung</u></a> bei beispielsweise WeTransfer oder Google Drive hoch.',
-            step2: 'Sendet uns den Link zu beiden Dateien per E-Mail an <a href="mailto:info@singing4peace.de"><u>info@singing4peace.de</u></a>.',
+            step1: 'Ladet Eure Aufnahme gemeinsam mit der <a class="underline" href="de/Anmeldung.pdf">Anmeldung</a> bei beispielsweise WeTransfer oder Google Drive hoch.',
+            step2: 'Sendet uns den Link zu beiden Dateien per E-Mail an <a class="underline" href="mailto:info@singing4peace.de">info@singing4peace.de</a>.',
             title: "So reicht ihr eure Aufnahme ein",
         },
         title: "Mitmachen",
