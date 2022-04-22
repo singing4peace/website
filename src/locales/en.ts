@@ -24,7 +24,7 @@ export default {
             message: 'Unfortunately, your video cannot be incorporated without a fully completed <a class="underline" href="en/Registration.pdf">registration form</a>.<br />Feel free to use the <a class="underline" href="en/Declaration of consent.pdf">declaration of consent</a> for choir members already provided by us.',
             step: "Step",
             step1: 'Upload your recording together with the <a class="underline" href="en/Registration.pdf">registration</a> to e.g. WeTransfer or Google Drive.',
-            step2: 'Email us the link to both files to <a class="underline" href="mailto:orga@singing4peace.de">orga@singing4peace.de</a>.',
+            step2: 'Email us the link to both files to <a class="underline" href="mailto:info@singing4peace.de">info@singing4peace.de</a>.',
             title: "How to submit your recording",
         },
         title: "Contribute",
