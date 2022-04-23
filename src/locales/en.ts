@@ -6,7 +6,7 @@ export default {
         files: {
             audio: 'Here is the link to the <a class="underline" href="Playback.mp3">soundtrack</a>.<br/>Here is the link to the <a class="underline" href="Piano Playback.mp3">overall recording</a>.',
             audioHint: "At the beginning the opening note can be heard followed by three clicks before the song starts. In this way you can identify pitch and tempo.",
-            notes: '<a class="underline" href="de/Melodie.pdf">Here you can get the sheet music</a>.',
+            notes: '<a class="underline" href="Sheet Music.zip">Here you can get the sheet music</a>.',
             title: "Your choir wants to contribute?",
         },
         important: "Important",
@@ -33,6 +33,17 @@ export default {
         compositionInfo: "Submissions of each children's choir will be incorporated regularly. This way our video will always be updated.<br />The composition of the image selection is randomly generated. This way, a different video is created every time you click on it.",
         contributed: "Choirs that have contributed",
         subtitle: "We are horrified and devastated by the inconceivable that is happening in the Ukraine at the moment. Elsewhere in the world many people are suffering from the consequences of war and violence also, especially children.<br /><br />As a sounding sign of solidarity we would like to sing a peace song together.<br />We invite all children's choirs and youth choirs to participate in this project.",
+        credits: "Idea, Text and Music: Manuela Nägele <br/>With support from <a class=\"underline\" href=\"https://vollstimmig.de/\">vollStimmig! e.V.</a>",
+        lyricsTitle: "Lyrics",
+        lyrics: "II: Let us sing for peace, for peace in the world. :II<br/>" +
+            "Peace for every country, peace for every city, peace for every home and for every child.<br/>" +
+            "Peace for every country, peace for every city peace for every home and for you and me. :II<br/><br/>" +
+            "II: Let us pray for peace, for hope in the world. :II<br/>" +
+            "Peace for every country, peace for every city, peace for every home and for every child.<br/>" +
+            "Peace for every country, peace for every city, peace for every home and for you and me. :II<br/><br/>" +
+            "II: Let us stand up for peace, for the future of this world. :II<br/>" +
+            "Peace for every country, peace for every city, peace for every home and for every child.<br/>" +
+            "Peace for every country, peace for every city, peace for every home and for you and me. :II"
     },
     locales: {
         de: "Deutsch",

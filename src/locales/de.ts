@@ -6,7 +6,7 @@ export default {
         files: {
             audio: '<a class="underline" href="Playback.mp3">In der Tonspur</a> singt ein einzelnes Kind das Lied unbegleitet.<br /><a class="underline" href="Piano Playback.mp3">In der Gesamtaufnahme</a> sind der Chor und Klavierbegleitung zu hören.',
             audioHint: "Bei beiden Musikdateien ist zu Beginn der Anfangston zu hören und dann drei Klicks bevor das Lied beginnt. So könnt ihr Tonhöhe und Tempo abnehmen.",
-            notes: '<a class="underline" href="de/Melodie.pdf">Hier könnt ihr euch die Noten herunterladen</a>.',
+            notes: '<a class="underline" href="de/Sheet Music.zip">Hier könnt ihr euch die Noten herunterladen</a>.',
             title: "Euer Chor möchte mitmachen?",
         },
         important: "Wichtig",
@@ -31,7 +31,21 @@ export default {
     home: {
         compositionInfo: "Die Einsendungen anderer Kinderchöre werden regelmäßig mit eingebaut. So wird unser Video immer aktualisiert.<br />Die Zusammenstellung der Bildauswahl wird zufällig generiert. Auf diese Weise entsteht bei jedem Anklicken ein anderes Video.",
         contributed: "Chöre, die bereits mitgemacht haben",
-        subtitle: "Mit Entsetzen und großer Betroffenheit beobachten wir das Unfassbare, das gerade in der Ukraine geschieht.<br />Auch anderswo auf der Welt leiden viele Menschen unter den Auswirkungen von Krieg und Gewalt, insbesondere Kinder.<br /><br />Als klingendes Zeichen der Verbundenheit wollen wir gemeinsam ein Friedenslied anstimmen.<br />Wir laden Kinderchöre- und Jugendchöre ein, mitzumachen.",
+        subtitle: "Mit Entsetzen und großer Betroffenheit beobachten wir das Unfassbare, das gerade in der Ukraine geschieht.<br />Auch anderswo auf der Welt leiden viele Menschen unter den Auswirkungen von Krieg und Gewalt, insbesondere Kinder.<br /><br />Als klingendes Zeichen der Verbundenheit wollen wir gemeinsam ein Friedenslied anstimmen.<br />Wir laden Kinderchöre und Jugendchöre ein, mitzumachen.",
+        credits: "Idee, Text und Musik: Manuela Nägele <br/>Mit Unterstützung von <a class=\"underline\" href=\"https://vollstimmig.de/\">vollStimmig! e.V.</a>",
+        lyricsTitle: "Lyrics",
+        lyrics: "II: Lasst uns für den Frieden singen, für den Frieden in der Welt. :II<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus und für jedes Kind.<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt Frieden für jedes Haus<br/>" +
+            "und für dich und mich. :II<br/><br/>" +
+            "II: Lasst uns für den Frieden bitten, für die Hoffnung in der Welt. :II<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus und für jedes Kind.<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus<br/>" +
+            "und für dich und mich. :II<br/><br/>" +
+            "II: Lasst uns für den Frieden einsteh'n, für die Zukunft dieser Welt. :II<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus und für jedes Kind.<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus<br/>" +
+            "und für dich und mich. :II",
     },
     nav: {
         contribute: "Mitmachen",
