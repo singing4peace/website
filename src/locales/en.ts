@@ -6,7 +6,7 @@ export default {
         files: {
             audio: 'Here is the link to the <a class="underline" href="Playback.mp3">soundtrack</a>.<br/>Here is the link to the <a class="underline" href="Piano Playback.mp3">overall recording</a>.',
             audioHint: "At the beginning the opening note can be heard followed by three clicks before the song starts. In this way you can identify pitch and tempo.",
-            notes: '<a class="underline" href="Sheet Music.zip">Here you can get the sheet music</a>.',
+            notes: '<a class="underline" href="Sheet Music - Singing4Peace.zip">Here you can get the sheet music</a>.',
             title: "Your choir wants to contribute?",
         },
         important: "Important",
