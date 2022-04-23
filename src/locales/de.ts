@@ -6,7 +6,7 @@ export default {
         files: {
             audio: '<a class="underline" href="Playback.mp3">In der Tonspur</a> singt ein einzelnes Kind das Lied unbegleitet.<br /><a class="underline" href="Piano Playback.mp3">In der Gesamtaufnahme</a> sind der Chor und Klavierbegleitung zu hören.',
             audioHint: "Bei beiden Musikdateien ist zu Beginn der Anfangston zu hören und dann drei Klicks bevor das Lied beginnt. So könnt ihr Tonhöhe und Tempo abnehmen.",
-            notes: '<a class="underline" href="de/Sheet Music.zip">Hier könnt ihr euch die Noten herunterladen</a>.',
+            notes: '<a class="underline" href="Sheet Music.zip">Hier könnt ihr euch die Noten herunterladen</a>.',
             title: "Euer Chor möchte mitmachen?",
         },
         important: "Wichtig",
