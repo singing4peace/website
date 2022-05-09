@@ -28,7 +28,11 @@ export default class HomeView extends Vue {
     "平和のために歌おう", // Japanese
     "Śpiewajmy razem o pokój na świecie!", // Polish
     "მოდი, ვუმღეროთ მშვიდობას!", // Georgian
-    "Pjevajmo za mir!" // Croatian
+    "Pjevajmo za mir!", // Croatian
+    "Ας τραγουδήσουμε για την ειρήνη", // Greek
+    "Poďme spievať za mier", // Slovak
+    "Hadi barış için şarkı söyleyelim", // Turkish
+    "Cantiamo per la pace", // Italian
   ];
 
   icons: Record<string, string> = {
