@@ -4,9 +4,9 @@ export default {
     },
     contribute: {
         files: {
-            audio: '<a href="Playback.mp3"><u>In der Tonspur</u></a> singt ein einzelnes Kind das Lied unbegleitet.<br /><a href="Piano Playback.mp3"><u>In der Gesamtaufnahme</u></a> sind der Chor und Klavierbegleitung zu hören.',
+            audio: '<a class="underline" href="Playback.mp3">In der Tonspur</a> singt ein einzelnes Kind das Lied unbegleitet.<br /><a class="underline" href="Piano Playback.mp3">In der Gesamtaufnahme</a> sind der Chor und Klavierbegleitung zu hören.',
             audioHint: "Bei beiden Musikdateien ist zu Beginn der Anfangston zu hören und dann drei Klicks bevor das Lied beginnt. So könnt ihr Tonhöhe und Tempo abnehmen.",
-            notes: '<a href="de/Melodie.pdf"><u>Hier könnt ihr euch die Noten herunterladen</u></a>.',
+            notes: '<a class="underline" href="Sheet Music - Singing4Peace.zip">Hier könnt ihr euch die Noten herunterladen</a>.',
             title: "Euer Chor möchte mitmachen?",
         },
         important: "Wichtig",
@@ -20,10 +20,10 @@ export default {
             variantsTitle: "Es gibt zwei verschiedene Möglichkeiten, euch aufzunehmen:",
         },
         submit: {
-            message: 'Ohne eine vollständig ausgefüllte <a href="de/Anmeldung.pdf"><u>Anmeldung</u></a> kann euer Video leider nicht eingebaut werden.<br />Wir haben außerdem eine <a href="de/Einverständniserklärung.pdf"><u>Einverständniserklärung</u></a> für eure Chormitglieder erstellt. Wenn ihr nicht sowieso eine eigene habt, nutz gerne unsere.',
+            message: 'Ohne eine vollständig ausgefüllte <a class="underline" href="de/Anmeldung.pdf">Anmeldung</a> kann euer Video leider nicht eingebaut werden.<br />Wir haben außerdem eine <a class="underline" href="de/Einverständniserklärung.pdf">Einverständniserklärung</a> für eure Chormitglieder erstellt. Wenn ihr nicht sowieso eine eigene habt, nutz gerne unsere.',
             step: "Schritt",
-            step1: 'Ladet Eure Aufnahme gemeinsam mit der <a href="de/Anmeldung.pdf"><u>Anmeldung</u></a> bei beispielsweise WeTransfer oder Google Drive hoch.',
-            step2: 'Sendet uns den Link zu beiden Dateien per E-Mail an <a href="mailto:info@singing4peace.de"><u>info@singing4peace.de</u></a>.',
+            step1: 'Ladet Eure Aufnahme gemeinsam mit der <a class="underline" href="de/Anmeldung.pdf">Anmeldung</a> bei beispielsweise WeTransfer oder Google Drive hoch.',
+            step2: 'Sendet uns den Link zu beiden Dateien per E-Mail an <a class="underline" href="mailto:info@singing4peace.de">info@singing4peace.de</a>.',
             title: "So reicht ihr eure Aufnahme ein",
         },
         title: "Mitmachen",
@@ -31,7 +31,21 @@ export default {
     home: {
         compositionInfo: "Die Einsendungen anderer Kinderchöre werden regelmäßig mit eingebaut. So wird unser Video immer aktualisiert.<br />Die Zusammenstellung der Bildauswahl wird zufällig generiert. Auf diese Weise entsteht bei jedem Anklicken ein anderes Video.",
         contributed: "Chöre, die bereits mitgemacht haben",
-        subtitle: "Mit Entsetzen und großer Betroffenheit beobachten wir das Unfassbare, das gerade in der Ukraine geschieht.<br />Auch anderswo auf der Welt leiden viele Menschen unter den Auswirkungen von Krieg und Gewalt, insbesondere Kinder.<br /><br />Als klingendes Zeichen der Verbundenheit wollen wir gemeinsam ein Friedenslied anstimmen.<br />Wir laden Kinderchöre- und Jugendchöre ein, mitzumachen.",
+        subtitle: "Mit Entsetzen und großer Betroffenheit beobachten wir das Unfassbare, das gerade in der Ukraine geschieht.<br />Auch anderswo auf der Welt leiden viele Menschen unter den Auswirkungen von Krieg und Gewalt, insbesondere Kinder.<br /><br />Als klingendes Zeichen der Verbundenheit wollen wir gemeinsam ein Friedenslied anstimmen.<br />Wir laden Kinderchöre und Jugendchöre ein, mitzumachen.",
+        credits: "Idee, Text und Musik: Manuela Nägele <br/>Mit Unterstützung von <a class=\"underline\" href=\"https://vollstimmig.de/\">vollStimmig! e.V.</a>",
+        lyricsTitle: "Lyrics",
+        lyrics: "II: Lasst uns für den Frieden singen, für den Frieden in der Welt. :II<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus und für jedes Kind.<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt Frieden für jedes Haus<br/>" +
+            "und für dich und mich. :II<br/><br/>" +
+            "II: Lasst uns für den Frieden bitten, für die Hoffnung in der Welt. :II<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus und für jedes Kind.<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus<br/>" +
+            "und für dich und mich. :II<br/><br/>" +
+            "II: Lasst uns für den Frieden einsteh'n, für die Zukunft dieser Welt. :II<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus und für jedes Kind.<br/>" +
+            "Frieden für jedes Land, Frieden für jede Stadt, Frieden für jedes Haus<br/>" +
+            "und für dich und mich. :II",
     },
     nav: {
         contribute: "Mitmachen",
