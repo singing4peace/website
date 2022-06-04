@@ -27,6 +27,7 @@
             "Lauletaan rauhan puolesta!", // Finnish
             "平和のために歌おう", // Japanese
             "Śpiewajmy razem o pokój na świecie!", // Polish
+            "Să cântăm pentru pace", // Romanian
         ];
 
         icons: Record<string, string> = {
