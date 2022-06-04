@@ -33,6 +33,7 @@ export default class HomeView extends Vue {
     "Poďme spievať za mier", // Slovak
     "Hadi barış için şarkı söyleyelim", // Turkish
     "Cantiamo per la pace", // Italian
+    "Să cântăm pentru pace", // Romanian
   ];
 
   icons: Record<string, string> = {
