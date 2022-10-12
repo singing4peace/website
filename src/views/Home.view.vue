@@ -64,7 +64,7 @@ export default class HomeView extends Vue {
 
       <div class="relative">
         <div class="bg-sky-200 flex w-full" style="aspect-ratio: 16/9">
-          <iframe class="flex-grow" src="https://www.youtube.com/embed/live_stream?channel=UCCde1p-HjCRkjln_ywfRFvg"
+          <iframe class="flex-grow" src="https://www.youtube-nocookie.com/embed/hioHhTj-v3s"
                   frameborder="0" allowfullscreen style="border: none; outline: none"></iframe>
         </div>
 
