@@ -16,7 +16,13 @@ import CyclingText from "@/components/CyclingText.component.vue";
   },
 })
 export default class HomeView extends Vue {
-  contributors: any[] = [];
+  contributors = [
+      "Tübinger Kinderkantorei",
+      "Kinder- und Jugendkantorei Oberer Neckar, Stuttgart",
+      "Steinenbergschule Hedelfingen",
+      "Gesangsklasse 5c des Max-Born-Gymnasiums, Backnang",
+      "Kinder- und Jugendchor der Göppinger Kantorei"
+  ];
   headers = [
     "Lasst uns für den Frieden singen!", // German
     "Давайте разом заспіваємо за мир!", // Ukrainian
@@ -39,13 +45,6 @@ export default class HomeView extends Vue {
   icons: Record<string, string> = {
     play: mdiPlay
   };
-
-  async mounted(): Promise<void> {
-    const res = await axios.get<any[]>("https://api.singing4peace.de/v1/ensembles");
-    if (res.status == 200) {
-      this.contributors = res.data;
-    }
-  }
 }
 </script>
 
@@ -98,7 +97,7 @@ export default class HomeView extends Vue {
 
       <div class="font-medium space-y-2">
         <template v-for="contributor in contributors">
-          <div :key="contributor.name">&mdash; {{ contributor.name }}</div>
+          <div :key="contributor">&mdash; {{ contributor }}</div>
         </template>
       </div>
     </section>
